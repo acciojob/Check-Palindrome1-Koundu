@@ -1,7 +1,7 @@
 // complete the given function
 
 function palindrome(str){
-const str1 = str.toLowerCaser();
+const str1 = str.toLowerCase();
 const temp1 = str1.split("")
 temp1.reverse();
 const res = temp1.join("");
