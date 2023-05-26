@@ -4,6 +4,7 @@ function palindrome(str){
 const temp1 = str.split("")
 temp1.reverse();
 const res = temp1.join("");
-console.log(str===res);
+if(str===res) return true;
+else return false;
 }
 module.exports = palindrome
