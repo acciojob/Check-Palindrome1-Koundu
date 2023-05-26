@@ -1,10 +1,11 @@
 // complete the given function
 
 function palindrome(str){
-const temp1 = str.split("")
+const str1 = str.toLowerCaser();
+const temp1 = str1.split("")
 temp1.reverse();
 const res = temp1.join("");
-if(str===res) return true;
+if(str1===res) return true;
 else return false;
 }
 module.exports = palindrome
